@@ -1,40 +1,41 @@
 {
-  "name": "img-inabar",
-  "version": "1.0.0",
-  "description": "Personal image server, for upload, organization and distribution. Also a test for flyup and flyup-ng.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/baamenabar/img-inabar.git"
-  },
-  "keywords": [
-    "nodejs",
-    "express",
-    "expressjs",
-    "file",
-    "server"
-  ],
-  "author": "B. Agustin Amenabar L.",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/baamenabar/img-inabar/issues"
-  },
-  "homepage": "https://github.com/baamenabar/img-inabar#readme",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "cors": "^2.8.5",
-    "dotenv": "^7.0.0",
-    "express": "^4.16.4",
-    "morgan": "^1.9.1"
-  },
-  "devDependencies": {
-    "eslint": "^5.15.3",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.16.0",
-    "mocha": "^6.0.2",
-    "supertest": "^4.0.2"
-  }
+    "name": "img-inabar",
+    "version": "1.0.0",
+    "description": "Personal image server, for upload, organization and distribution. Also a test for flyup and flyup-ng.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/baamenabar/img-inabar.git"
+    },
+    "keywords": [
+        "nodejs",
+        "express",
+        "expressjs",
+        "file",
+        "server"
+    ],
+    "author": "B. Agustin Amenabar L.",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/baamenabar/img-inabar/issues"
+    },
+    "homepage": "https://github.com/baamenabar/img-inabar#readme",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "cors": "^2.8.5",
+        "dotenv": "^7.0.0",
+        "express": "^4.16.4",
+        "morgan": "^1.9.1"
+    },
+    "devDependencies": {
+        "eslint": "^5.15.3",
+        "eslint-config-airbnb-base": "^13.1.0",
+        "eslint-plugin-import": "^2.16.0",
+        "mocha": "^6.0.2",
+        "supertest": "^4.0.2"
+    }
 }

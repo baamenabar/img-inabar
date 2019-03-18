@@ -1,0 +1,26 @@
+{
+  "name": "img-inabar",
+  "version": "1.0.0",
+  "description": "Personal image server, for upload, organization and distribution. Also a test for flyup and flyup-ng.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baamenabar/img-inabar.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "expressjs",
+    "file",
+    "server"
+  ],
+  "author": "B. Agustin Amenabar L.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baamenabar/img-inabar/issues"
+  },
+  "homepage": "https://github.com/baamenabar/img-inabar#readme"
+}

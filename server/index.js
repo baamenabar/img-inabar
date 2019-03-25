@@ -2,11 +2,10 @@ require('dotenv').config();
 
 const express = require('express');
 const morgan = require('morgan');
-const bodyParser = require('body-parser');
 
 const app = express();
 app.use(morgan(process.env.MORGAN_LOG_TYPE || 'combined'));
-app.use(bodyParser.json());
+app.use(express.json()); // this replaces body-parser
 app.use(express.static('server/static'));
 
 if (!module.parent) {
